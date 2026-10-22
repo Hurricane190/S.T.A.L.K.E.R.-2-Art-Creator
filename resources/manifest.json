@@ -1,0 +1,2738 @@
+{
+ "app": "S2 Art Creator",
+ "version": "1.0",
+ "textures": [
+  {
+   "id": "T_loading_idlescreen_img",
+   "cat": "idle",
+   "title": "Idle screen (shader-loading art)",
+   "sub": "T_loading_idlescreen_img",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/IdleScreen/T_loading_idlescreen_img",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_idlescreen_img/T_loading_idlescreen_img.uasset",
+   "head": "tex/T_loading_idlescreen_img/head.bin",
+   "trailer": "tex/T_loading_idlescreen_img/trailer.bin",
+   "preview": "tex/T_loading_idlescreen_img/preview.jpg"
+  },
+  {
+   "id": "loadingscreen11",
+   "cat": "loading",
+   "title": "Loading screen 11",
+   "sub": "loadingscreen11",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen11",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC7",
+   "blob": 8294400,
+   "uexp_len": 8294543,
+   "uasset": "tex/loadingscreen11/loadingscreen11.uasset",
+   "head": "tex/loadingscreen11/head.bin",
+   "trailer": "tex/loadingscreen11/trailer.bin",
+   "preview": "tex/loadingscreen11/preview.jpg"
+  },
+  {
+   "id": "loadingscreen12",
+   "cat": "loading",
+   "title": "Loading screen 12",
+   "sub": "loadingscreen12",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen12",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC7",
+   "blob": 8294400,
+   "uexp_len": 8294543,
+   "uasset": "tex/loadingscreen12/loadingscreen12.uasset",
+   "head": "tex/loadingscreen12/head.bin",
+   "trailer": "tex/loadingscreen12/trailer.bin",
+   "preview": "tex/loadingscreen12/preview.jpg"
+  },
+  {
+   "id": "loadingscreen13",
+   "cat": "loading",
+   "title": "Loading screen 13",
+   "sub": "loadingscreen13",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen13",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen13/loadingscreen13.uasset",
+   "head": "tex/loadingscreen13/head.bin",
+   "trailer": "tex/loadingscreen13/trailer.bin",
+   "preview": "tex/loadingscreen13/preview.jpg"
+  },
+  {
+   "id": "loadingscreen14",
+   "cat": "loading",
+   "title": "Loading screen 14",
+   "sub": "loadingscreen14",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen14",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen14/loadingscreen14.uasset",
+   "head": "tex/loadingscreen14/head.bin",
+   "trailer": "tex/loadingscreen14/trailer.bin",
+   "preview": "tex/loadingscreen14/preview.jpg"
+  },
+  {
+   "id": "loadingscreen15",
+   "cat": "loading",
+   "title": "Loading screen 15",
+   "sub": "loadingscreen15",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen15",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen15/loadingscreen15.uasset",
+   "head": "tex/loadingscreen15/head.bin",
+   "trailer": "tex/loadingscreen15/trailer.bin",
+   "preview": "tex/loadingscreen15/preview.jpg"
+  },
+  {
+   "id": "loadingscreen16",
+   "cat": "loading",
+   "title": "Loading screen 16",
+   "sub": "loadingscreen16",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen16",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC7",
+   "blob": 8294400,
+   "uexp_len": 8294543,
+   "uasset": "tex/loadingscreen16/loadingscreen16.uasset",
+   "head": "tex/loadingscreen16/head.bin",
+   "trailer": "tex/loadingscreen16/trailer.bin",
+   "preview": "tex/loadingscreen16/preview.jpg"
+  },
+  {
+   "id": "loadingscreen17",
+   "cat": "loading",
+   "title": "Loading screen 17",
+   "sub": "loadingscreen17",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen17",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen17/loadingscreen17.uasset",
+   "head": "tex/loadingscreen17/head.bin",
+   "trailer": "tex/loadingscreen17/trailer.bin",
+   "preview": "tex/loadingscreen17/preview.jpg"
+  },
+  {
+   "id": "loadingscreen18",
+   "cat": "loading",
+   "title": "Loading screen 18",
+   "sub": "loadingscreen18",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen18",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen18/loadingscreen18.uasset",
+   "head": "tex/loadingscreen18/head.bin",
+   "trailer": "tex/loadingscreen18/trailer.bin",
+   "preview": "tex/loadingscreen18/preview.jpg"
+  },
+  {
+   "id": "loadingscreen19",
+   "cat": "loading",
+   "title": "Loading screen 19",
+   "sub": "loadingscreen19",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen19",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen19/loadingscreen19.uasset",
+   "head": "tex/loadingscreen19/head.bin",
+   "trailer": "tex/loadingscreen19/trailer.bin",
+   "preview": "tex/loadingscreen19/preview.jpg"
+  },
+  {
+   "id": "loadingscreen20",
+   "cat": "loading",
+   "title": "Loading screen 20",
+   "sub": "loadingscreen20",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen20",
+   "kind": "inline",
+   "w": 5152,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 5564160,
+   "uexp_len": 5564304,
+   "uasset": "tex/loadingscreen20/loadingscreen20.uasset",
+   "head": "tex/loadingscreen20/head.bin",
+   "trailer": "tex/loadingscreen20/trailer.bin",
+   "preview": "tex/loadingscreen20/preview.jpg"
+  },
+  {
+   "id": "loadingscreen21",
+   "cat": "loading",
+   "title": "Loading screen 21",
+   "sub": "loadingscreen21",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen21",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen21/loadingscreen21.uasset",
+   "head": "tex/loadingscreen21/head.bin",
+   "trailer": "tex/loadingscreen21/trailer.bin",
+   "preview": "tex/loadingscreen21/preview.jpg"
+  },
+  {
+   "id": "loadingscreen22",
+   "cat": "loading",
+   "title": "Loading screen 22",
+   "sub": "loadingscreen22",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen22",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen22/loadingscreen22.uasset",
+   "head": "tex/loadingscreen22/head.bin",
+   "trailer": "tex/loadingscreen22/trailer.bin",
+   "preview": "tex/loadingscreen22/preview.jpg"
+  },
+  {
+   "id": "loadingscreen23",
+   "cat": "loading",
+   "title": "Loading screen 23",
+   "sub": "loadingscreen23",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen23",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen23/loadingscreen23.uasset",
+   "head": "tex/loadingscreen23/head.bin",
+   "trailer": "tex/loadingscreen23/trailer.bin",
+   "preview": "tex/loadingscreen23/preview.jpg"
+  },
+  {
+   "id": "loadingscreen24",
+   "cat": "loading",
+   "title": "Loading screen 24",
+   "sub": "loadingscreen24",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen24",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen24/loadingscreen24.uasset",
+   "head": "tex/loadingscreen24/head.bin",
+   "trailer": "tex/loadingscreen24/trailer.bin",
+   "preview": "tex/loadingscreen24/preview.jpg"
+  },
+  {
+   "id": "loadingscreen25",
+   "cat": "loading",
+   "title": "Loading screen 25",
+   "sub": "loadingscreen25",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen25",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen25/loadingscreen25.uasset",
+   "head": "tex/loadingscreen25/head.bin",
+   "trailer": "tex/loadingscreen25/trailer.bin",
+   "preview": "tex/loadingscreen25/preview.jpg"
+  },
+  {
+   "id": "loadingscreen26",
+   "cat": "loading",
+   "title": "Loading screen 26",
+   "sub": "loadingscreen26",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen26",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen26/loadingscreen26.uasset",
+   "head": "tex/loadingscreen26/head.bin",
+   "trailer": "tex/loadingscreen26/trailer.bin",
+   "preview": "tex/loadingscreen26/preview.jpg"
+  },
+  {
+   "id": "loadingscreen27",
+   "cat": "loading",
+   "title": "Loading screen 27",
+   "sub": "loadingscreen27",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen27",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen27/loadingscreen27.uasset",
+   "head": "tex/loadingscreen27/head.bin",
+   "trailer": "tex/loadingscreen27/trailer.bin",
+   "preview": "tex/loadingscreen27/preview.jpg"
+  },
+  {
+   "id": "loadingscreen28",
+   "cat": "loading",
+   "title": "Loading screen 28",
+   "sub": "loadingscreen28",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen28",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen28/loadingscreen28.uasset",
+   "head": "tex/loadingscreen28/head.bin",
+   "trailer": "tex/loadingscreen28/trailer.bin",
+   "preview": "tex/loadingscreen28/preview.jpg"
+  },
+  {
+   "id": "loadingscreen29",
+   "cat": "loading",
+   "title": "Loading screen 29",
+   "sub": "loadingscreen29",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen29",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen29/loadingscreen29.uasset",
+   "head": "tex/loadingscreen29/head.bin",
+   "trailer": "tex/loadingscreen29/trailer.bin",
+   "preview": "tex/loadingscreen29/preview.jpg"
+  },
+  {
+   "id": "loadingscreen30",
+   "cat": "loading",
+   "title": "Loading screen 30",
+   "sub": "loadingscreen30",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen30",
+   "kind": "inline",
+   "w": 3848,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4155840,
+   "uexp_len": 4155984,
+   "uasset": "tex/loadingscreen30/loadingscreen30.uasset",
+   "head": "tex/loadingscreen30/head.bin",
+   "trailer": "tex/loadingscreen30/trailer.bin",
+   "preview": "tex/loadingscreen30/preview.jpg"
+  },
+  {
+   "id": "loadingscreen31",
+   "cat": "loading",
+   "title": "Loading screen 31",
+   "sub": "loadingscreen31",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/SaveLoadScreen/loadingscreen31",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/loadingscreen31/loadingscreen31.uasset",
+   "head": "tex/loadingscreen31/head.bin",
+   "trailer": "tex/loadingscreen31/trailer.bin",
+   "preview": "tex/loadingscreen31/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_1_v2",
+   "cat": "loading",
+   "title": "Loading art 1",
+   "sub": "T_LoadingArt_1_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_1_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_1_v2/T_LoadingArt_1_v2.uasset",
+   "head": "tex/T_LoadingArt_1_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_1_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_1_v2/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_2_v2",
+   "cat": "loading",
+   "title": "Loading art 2",
+   "sub": "T_LoadingArt_2_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_2_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_2_v2/T_LoadingArt_2_v2.uasset",
+   "head": "tex/T_LoadingArt_2_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_2_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_2_v2/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_3_v2",
+   "cat": "loading",
+   "title": "Loading art 3",
+   "sub": "T_LoadingArt_3_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_3_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_3_v2/T_LoadingArt_3_v2.uasset",
+   "head": "tex/T_LoadingArt_3_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_3_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_3_v2/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_4_v2",
+   "cat": "loading",
+   "title": "Loading art 4",
+   "sub": "T_LoadingArt_4_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_4_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_4_v2/T_LoadingArt_4_v2.uasset",
+   "head": "tex/T_LoadingArt_4_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_4_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_4_v2/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_5_v2",
+   "cat": "loading",
+   "title": "Loading art 5",
+   "sub": "T_LoadingArt_5_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_5_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_5_v2/T_LoadingArt_5_v2.uasset",
+   "head": "tex/T_LoadingArt_5_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_5_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_5_v2/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_6_v2",
+   "cat": "loading",
+   "title": "Loading art 6",
+   "sub": "T_LoadingArt_6_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_6_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_6_v2/T_LoadingArt_6_v2.uasset",
+   "head": "tex/T_LoadingArt_6_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_6_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_6_v2/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_7_v2",
+   "cat": "loading",
+   "title": "Loading art 7",
+   "sub": "T_LoadingArt_7_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_7_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_7_v2/T_LoadingArt_7_v2.uasset",
+   "head": "tex/T_LoadingArt_7_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_7_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_7_v2/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_8_v2",
+   "cat": "loading",
+   "title": "Loading art 8",
+   "sub": "T_LoadingArt_8_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_8_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_8_v2/T_LoadingArt_8_v2.uasset",
+   "head": "tex/T_LoadingArt_8_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_8_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_8_v2/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_9_v2",
+   "cat": "loading",
+   "title": "Loading art 9",
+   "sub": "T_LoadingArt_9_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_9_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_9_v2/T_LoadingArt_9_v2.uasset",
+   "head": "tex/T_LoadingArt_9_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_9_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_9_v2/preview.jpg"
+  },
+  {
+   "id": "T_LoadingArt_10_v2",
+   "cat": "loading",
+   "title": "Loading art 10",
+   "sub": "T_LoadingArt_10_v2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_LoadingArt_10_v2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_LoadingArt_10_v2/T_LoadingArt_10_v2.uasset",
+   "head": "tex/T_LoadingArt_10_v2/head.bin",
+   "trailer": "tex/T_LoadingArt_10_v2/trailer.bin",
+   "preview": "tex/T_LoadingArt_10_v2/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_1",
+   "cat": "loading",
+   "title": "Loading art 1 (older set)",
+   "sub": "T_loading_art_1",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_1",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_1/T_loading_art_1.uasset",
+   "head": "tex/T_loading_art_1/head.bin",
+   "trailer": "tex/T_loading_art_1/trailer.bin",
+   "preview": "tex/T_loading_art_1/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_2",
+   "cat": "loading",
+   "title": "Loading art 2 (older set)",
+   "sub": "T_loading_art_2",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_2",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_2/T_loading_art_2.uasset",
+   "head": "tex/T_loading_art_2/head.bin",
+   "trailer": "tex/T_loading_art_2/trailer.bin",
+   "preview": "tex/T_loading_art_2/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_3",
+   "cat": "loading",
+   "title": "Loading art 3 (older set)",
+   "sub": "T_loading_art_3",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_3",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_3/T_loading_art_3.uasset",
+   "head": "tex/T_loading_art_3/head.bin",
+   "trailer": "tex/T_loading_art_3/trailer.bin",
+   "preview": "tex/T_loading_art_3/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_4",
+   "cat": "loading",
+   "title": "Loading art 4 (older set)",
+   "sub": "T_loading_art_4",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_4",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_4/T_loading_art_4.uasset",
+   "head": "tex/T_loading_art_4/head.bin",
+   "trailer": "tex/T_loading_art_4/trailer.bin",
+   "preview": "tex/T_loading_art_4/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_5",
+   "cat": "loading",
+   "title": "Loading art 5 (older set)",
+   "sub": "T_loading_art_5",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_5",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_5/T_loading_art_5.uasset",
+   "head": "tex/T_loading_art_5/head.bin",
+   "trailer": "tex/T_loading_art_5/trailer.bin",
+   "preview": "tex/T_loading_art_5/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_6",
+   "cat": "loading",
+   "title": "Loading art 6 (older set)",
+   "sub": "T_loading_art_6",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_6",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_6/T_loading_art_6.uasset",
+   "head": "tex/T_loading_art_6/head.bin",
+   "trailer": "tex/T_loading_art_6/trailer.bin",
+   "preview": "tex/T_loading_art_6/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_7",
+   "cat": "loading",
+   "title": "Loading art 7 (older set)",
+   "sub": "T_loading_art_7",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_7",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_7/T_loading_art_7.uasset",
+   "head": "tex/T_loading_art_7/head.bin",
+   "trailer": "tex/T_loading_art_7/trailer.bin",
+   "preview": "tex/T_loading_art_7/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_8",
+   "cat": "loading",
+   "title": "Loading art 8 (older set)",
+   "sub": "T_loading_art_8",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_8",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_8/T_loading_art_8.uasset",
+   "head": "tex/T_loading_art_8/head.bin",
+   "trailer": "tex/T_loading_art_8/trailer.bin",
+   "preview": "tex/T_loading_art_8/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_9",
+   "cat": "loading",
+   "title": "Loading art 9 (older set)",
+   "sub": "T_loading_art_9",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_9",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_9/T_loading_art_9.uasset",
+   "head": "tex/T_loading_art_9/head.bin",
+   "trailer": "tex/T_loading_art_9/trailer.bin",
+   "preview": "tex/T_loading_art_9/preview.jpg"
+  },
+  {
+   "id": "T_loading_art_10",
+   "cat": "loading",
+   "title": "Loading art 10 (older set)",
+   "sub": "T_loading_art_10",
+   "rel": "Stalker2/Content/GameLite/FPS_Game/UIRemaster/UITextures/LoadingScreen/Background/T_loading_art_10",
+   "kind": "inline",
+   "w": 3840,
+   "h": 2160,
+   "fmt": "BC1",
+   "blob": 4147200,
+   "uexp_len": 4147344,
+   "uasset": "tex/T_loading_art_10/T_loading_art_10.uasset",
+   "head": "tex/T_loading_art_10/head.bin",
+   "trailer": "tex/T_loading_art_10/trailer.bin",
+   "preview": "tex/T_loading_art_10/preview.jpg"
+  },
+  {
+   "id": "T_pos_poster_01_D",
+   "cat": "poster",
+   "title": "Poster set 01",
+   "sub": "T_pos_poster_01_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_01_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_01_D/T_pos_poster_01_D.uasset",
+   "uexp": "tex/T_pos_poster_01_D/T_pos_poster_01_D.uexp",
+   "preview": "tex/T_pos_poster_01_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_01_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_01_D/cell_1.jpg",
+    "tex/T_pos_poster_01_D/cell_2.jpg",
+    "tex/T_pos_poster_01_D/cell_3.jpg",
+    "tex/T_pos_poster_01_D/cell_4.jpg",
+    "tex/T_pos_poster_01_D/cell_5.jpg",
+    "tex/T_pos_poster_01_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_02_D",
+   "cat": "poster",
+   "title": "Poster set 02",
+   "sub": "T_pos_poster_02_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_02_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_02_D/T_pos_poster_02_D.uasset",
+   "uexp": "tex/T_pos_poster_02_D/T_pos_poster_02_D.uexp",
+   "preview": "tex/T_pos_poster_02_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_02_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_02_D/cell_1.jpg",
+    "tex/T_pos_poster_02_D/cell_2.jpg",
+    "tex/T_pos_poster_02_D/cell_3.jpg",
+    "tex/T_pos_poster_02_D/cell_4.jpg",
+    "tex/T_pos_poster_02_D/cell_5.jpg",
+    "tex/T_pos_poster_02_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_03_D",
+   "cat": "poster",
+   "title": "Poster set 03",
+   "sub": "T_pos_poster_03_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_03_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_03_D/T_pos_poster_03_D.uasset",
+   "uexp": "tex/T_pos_poster_03_D/T_pos_poster_03_D.uexp",
+   "preview": "tex/T_pos_poster_03_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_03_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_03_D/cell_1.jpg",
+    "tex/T_pos_poster_03_D/cell_2.jpg",
+    "tex/T_pos_poster_03_D/cell_3.jpg",
+    "tex/T_pos_poster_03_D/cell_4.jpg",
+    "tex/T_pos_poster_03_D/cell_5.jpg",
+    "tex/T_pos_poster_03_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_04_D",
+   "cat": "poster",
+   "title": "Poster set 04",
+   "sub": "T_pos_poster_04_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_04_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_04_D/T_pos_poster_04_D.uasset",
+   "uexp": "tex/T_pos_poster_04_D/T_pos_poster_04_D.uexp",
+   "preview": "tex/T_pos_poster_04_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_04_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_04_D/cell_1.jpg",
+    "tex/T_pos_poster_04_D/cell_2.jpg",
+    "tex/T_pos_poster_04_D/cell_3.jpg",
+    "tex/T_pos_poster_04_D/cell_4.jpg",
+    "tex/T_pos_poster_04_D/cell_5.jpg",
+    "tex/T_pos_poster_04_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_05_D",
+   "cat": "poster",
+   "title": "Poster set 05",
+   "sub": "T_pos_poster_05_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_05_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_05_D/T_pos_poster_05_D.uasset",
+   "uexp": "tex/T_pos_poster_05_D/T_pos_poster_05_D.uexp",
+   "preview": "tex/T_pos_poster_05_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_05_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_05_D/cell_1.jpg",
+    "tex/T_pos_poster_05_D/cell_2.jpg",
+    "tex/T_pos_poster_05_D/cell_3.jpg",
+    "tex/T_pos_poster_05_D/cell_4.jpg",
+    "tex/T_pos_poster_05_D/cell_5.jpg",
+    "tex/T_pos_poster_05_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_06_D",
+   "cat": "poster",
+   "title": "Poster set 06",
+   "sub": "T_pos_poster_06_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_06_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_06_D/T_pos_poster_06_D.uasset",
+   "uexp": "tex/T_pos_poster_06_D/T_pos_poster_06_D.uexp",
+   "preview": "tex/T_pos_poster_06_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_06_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_06_D/cell_1.jpg",
+    "tex/T_pos_poster_06_D/cell_2.jpg",
+    "tex/T_pos_poster_06_D/cell_3.jpg",
+    "tex/T_pos_poster_06_D/cell_4.jpg",
+    "tex/T_pos_poster_06_D/cell_5.jpg",
+    "tex/T_pos_poster_06_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_07_D",
+   "cat": "poster",
+   "title": "Poster set 07",
+   "sub": "T_pos_poster_07_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_07_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_07_D/T_pos_poster_07_D.uasset",
+   "uexp": "tex/T_pos_poster_07_D/T_pos_poster_07_D.uexp",
+   "preview": "tex/T_pos_poster_07_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_07_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_07_D/cell_1.jpg",
+    "tex/T_pos_poster_07_D/cell_2.jpg",
+    "tex/T_pos_poster_07_D/cell_3.jpg",
+    "tex/T_pos_poster_07_D/cell_4.jpg",
+    "tex/T_pos_poster_07_D/cell_5.jpg",
+    "tex/T_pos_poster_07_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_08_D",
+   "cat": "poster",
+   "title": "Poster set 08",
+   "sub": "T_pos_poster_08_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_08_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_08_D/T_pos_poster_08_D.uasset",
+   "uexp": "tex/T_pos_poster_08_D/T_pos_poster_08_D.uexp",
+   "preview": "tex/T_pos_poster_08_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_08_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_08_D/cell_1.jpg",
+    "tex/T_pos_poster_08_D/cell_2.jpg",
+    "tex/T_pos_poster_08_D/cell_3.jpg",
+    "tex/T_pos_poster_08_D/cell_4.jpg",
+    "tex/T_pos_poster_08_D/cell_5.jpg",
+    "tex/T_pos_poster_08_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_09_D",
+   "cat": "poster",
+   "title": "Poster set 09",
+   "sub": "T_pos_poster_09_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_09_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_09_D/T_pos_poster_09_D.uasset",
+   "uexp": "tex/T_pos_poster_09_D/T_pos_poster_09_D.uexp",
+   "preview": "tex/T_pos_poster_09_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_09_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_09_D/cell_1.jpg",
+    "tex/T_pos_poster_09_D/cell_2.jpg",
+    "tex/T_pos_poster_09_D/cell_3.jpg",
+    "tex/T_pos_poster_09_D/cell_4.jpg",
+    "tex/T_pos_poster_09_D/cell_5.jpg",
+    "tex/T_pos_poster_09_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_10_D",
+   "cat": "poster",
+   "title": "Poster set 10",
+   "sub": "T_pos_poster_10_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_10_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_10_D/T_pos_poster_10_D.uasset",
+   "uexp": "tex/T_pos_poster_10_D/T_pos_poster_10_D.uexp",
+   "preview": "tex/T_pos_poster_10_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_10_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_10_D/cell_1.jpg",
+    "tex/T_pos_poster_10_D/cell_2.jpg",
+    "tex/T_pos_poster_10_D/cell_3.jpg",
+    "tex/T_pos_poster_10_D/cell_4.jpg",
+    "tex/T_pos_poster_10_D/cell_5.jpg",
+    "tex/T_pos_poster_10_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_11_D",
+   "cat": "poster",
+   "title": "Poster set 11",
+   "sub": "T_pos_poster_11_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_11_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_11_D/T_pos_poster_11_D.uasset",
+   "uexp": "tex/T_pos_poster_11_D/T_pos_poster_11_D.uexp",
+   "preview": "tex/T_pos_poster_11_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_11_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_11_D/cell_1.jpg",
+    "tex/T_pos_poster_11_D/cell_2.jpg",
+    "tex/T_pos_poster_11_D/cell_3.jpg",
+    "tex/T_pos_poster_11_D/cell_4.jpg",
+    "tex/T_pos_poster_11_D/cell_5.jpg",
+    "tex/T_pos_poster_11_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_12_D",
+   "cat": "poster",
+   "title": "Poster set 12",
+   "sub": "T_pos_poster_12_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_12_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_12_D/T_pos_poster_12_D.uasset",
+   "uexp": "tex/T_pos_poster_12_D/T_pos_poster_12_D.uexp",
+   "preview": "tex/T_pos_poster_12_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_12_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_12_D/cell_1.jpg",
+    "tex/T_pos_poster_12_D/cell_2.jpg",
+    "tex/T_pos_poster_12_D/cell_3.jpg",
+    "tex/T_pos_poster_12_D/cell_4.jpg",
+    "tex/T_pos_poster_12_D/cell_5.jpg",
+    "tex/T_pos_poster_12_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_13_D",
+   "cat": "poster",
+   "title": "Poster set 13",
+   "sub": "T_pos_poster_13_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_13_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_13_D/T_pos_poster_13_D.uasset",
+   "uexp": "tex/T_pos_poster_13_D/T_pos_poster_13_D.uexp",
+   "preview": "tex/T_pos_poster_13_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_13_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_13_D/cell_1.jpg",
+    "tex/T_pos_poster_13_D/cell_2.jpg",
+    "tex/T_pos_poster_13_D/cell_3.jpg",
+    "tex/T_pos_poster_13_D/cell_4.jpg",
+    "tex/T_pos_poster_13_D/cell_5.jpg",
+    "tex/T_pos_poster_13_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_14_D",
+   "cat": "poster",
+   "title": "Poster set 14",
+   "sub": "T_pos_poster_14_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_14_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_14_D/T_pos_poster_14_D.uasset",
+   "uexp": "tex/T_pos_poster_14_D/T_pos_poster_14_D.uexp",
+   "preview": "tex/T_pos_poster_14_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_14_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_14_D/cell_1.jpg",
+    "tex/T_pos_poster_14_D/cell_2.jpg",
+    "tex/T_pos_poster_14_D/cell_3.jpg",
+    "tex/T_pos_poster_14_D/cell_4.jpg",
+    "tex/T_pos_poster_14_D/cell_5.jpg",
+    "tex/T_pos_poster_14_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_15_D",
+   "cat": "poster",
+   "title": "Poster set 15",
+   "sub": "T_pos_poster_15_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_15_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_15_D/T_pos_poster_15_D.uasset",
+   "uexp": "tex/T_pos_poster_15_D/T_pos_poster_15_D.uexp",
+   "preview": "tex/T_pos_poster_15_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_15_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_15_D/cell_1.jpg",
+    "tex/T_pos_poster_15_D/cell_2.jpg",
+    "tex/T_pos_poster_15_D/cell_3.jpg",
+    "tex/T_pos_poster_15_D/cell_4.jpg",
+    "tex/T_pos_poster_15_D/cell_5.jpg",
+    "tex/T_pos_poster_15_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_16_D",
+   "cat": "poster",
+   "title": "Poster set 16",
+   "sub": "T_pos_poster_16_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_16_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_16_D/T_pos_poster_16_D.uasset",
+   "uexp": "tex/T_pos_poster_16_D/T_pos_poster_16_D.uexp",
+   "preview": "tex/T_pos_poster_16_D/preview.jpg",
+   "mode": "cells",
+   "cells": [
+    [
+     0,
+     0,
+     679,
+     1022
+    ],
+    [
+     679,
+     0,
+     1367,
+     1022
+    ],
+    [
+     1367,
+     0,
+     2048,
+     1022
+    ],
+    [
+     0,
+     1022,
+     679,
+     2048
+    ],
+    [
+     679,
+     1022,
+     1367,
+     2048
+    ],
+    [
+     1367,
+     1022,
+     2048,
+     2048
+    ]
+   ],
+   "cell_view": [
+    [
+     17,
+     11,
+     661,
+     1004
+    ],
+    [
+     698,
+     11,
+     1351,
+     1004
+    ],
+    [
+     1382,
+     11,
+     2025,
+     1004
+    ],
+    [
+     17,
+     1040,
+     661,
+     2032
+    ],
+    [
+     698,
+     1040,
+     1351,
+     2032
+    ],
+    [
+     1382,
+     1040,
+     2025,
+     2032
+    ]
+   ],
+   "vanilla": "tex/T_pos_poster_16_D/vanilla.jpg",
+   "cell_previews": [
+    "tex/T_pos_poster_16_D/cell_1.jpg",
+    "tex/T_pos_poster_16_D/cell_2.jpg",
+    "tex/T_pos_poster_16_D/cell_3.jpg",
+    "tex/T_pos_poster_16_D/cell_4.jpg",
+    "tex/T_pos_poster_16_D/cell_5.jpg",
+    "tex/T_pos_poster_16_D/cell_6.jpg"
+   ]
+  },
+  {
+   "id": "T_pos_poster_10_a_D",
+   "cat": "poster",
+   "title": "Poster set 10 (variant A)",
+   "sub": "T_pos_poster_10_a_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_10_a_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 2048,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    256,
+    64,
+    16,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000",
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_10_a_D/T_pos_poster_10_a_D.uasset",
+   "uexp": "tex/T_pos_poster_10_a_D/T_pos_poster_10_a_D.uexp",
+   "preview": "tex/T_pos_poster_10_a_D/preview.jpg",
+   "mode": "full"
+  },
+  {
+   "id": "T_pos_poster_10_b_D",
+   "cat": "poster",
+   "title": "Poster set 10 (variant B)",
+   "sub": "T_pos_poster_10_b_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_10_b_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 512,
+   "fmt": "BC1",
+   "T": 9248,
+   "counts": [
+    64,
+    16,
+    4,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_10_b_D/T_pos_poster_10_b_D.uasset",
+   "uexp": "tex/T_pos_poster_10_b_D/T_pos_poster_10_b_D.uexp",
+   "preview": "tex/T_pos_poster_10_b_D/preview.jpg",
+   "mode": "full"
+  },
+  {
+   "id": "T_pos_poster_damage_01_D",
+   "cat": "poster",
+   "title": "Damaged poster set",
+   "sub": "T_pos_poster_damage_01_D",
+   "rel": "Stalker2/Content/_Stalker_2/props/posters/Textures/T_pos_poster_damage_01_D",
+   "kind": "vt",
+   "w": 2048,
+   "h": 512,
+   "fmt": "BC7",
+   "T": 18496,
+   "counts": [
+    64,
+    16,
+    4,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "head4": "00000000",
+   "frags": [
+    "00000000"
+   ],
+   "uasset": "tex/T_pos_poster_damage_01_D/T_pos_poster_damage_01_D.uasset",
+   "uexp": "tex/T_pos_poster_damage_01_D/T_pos_poster_damage_01_D.uexp",
+   "preview": "tex/T_pos_poster_damage_01_D/preview.jpg",
+   "mode": "full"
+  }
+ ]
+}
