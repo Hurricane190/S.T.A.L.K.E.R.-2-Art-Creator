@@ -1,9 +1,17 @@
-# S2 Art Creator 1.0
+﻿# S2 Art Creator 2.1
 
-Create your own **Idle Screen**, **Loading Screen** and **Poster** mods for
-**S.T.A.L.K.E.R. 2: Heart of Chornobyl** - no manual file editing, no converting, no
-renaming. Pick the images in the game you want to replace, choose your own picture for
-each, press one button, and copy the finished folder into your mods directory.
+Create your own **Idle Screen**, **Loading Screen**, **Poster** and **main-menu video**
+mods for **S.T.A.L.K.E.R. 2: Heart of Chornobyl** - and change the **text of the main
+menu** - no manual file editing, no converting, no renaming. Pick the pictures and
+texts in the game you want to replace, press one button, and copy the finished folder
+into your mods directory.
+
+The window has two top-level tabs:
+
+* **Image Edits** - everything that swaps a picture (idle screen, loading screens,
+  posters, main-menu film).
+* **Text Edits** - everything that swaps text inside the game (main-menu button labels
+  and the big title logo).
 
 The app also shows you, for every replaceable image, **which mod is currently winning in
 game** - useful when several mods touch the same posters.
@@ -17,6 +25,9 @@ game** - useful when several mods touch the same posters.
   (including the texture encoder and the container packer) is inside this folder.
 * S.T.A.L.K.E.R. 2: Heart of Chornobyl must be installed for the mods to have an effect
   and for the *in game* column to work.
+* **RAD Video Tools** (free, from RAD Game Tools) is only needed if you want to convert
+  your own movie file (`.mp4`, `.mov`, ...) into the Bink 2 format the game uses. The
+  app never installs or bundles it - it only uses a copy you already have.
 
 ---
 
@@ -33,16 +44,18 @@ mods - it only reads them to show you what is active.
 
 ---
 
-## Creating your first mod (5 steps)
+## Creating your first mod (7 steps)
 
 ### 1. Choose what to replace
-At the top of the window pick a category:
+Pick a top-level tab and then a section:
 
-| category | what you can replace |
-|---|---|
-| **Idle Screens** | 1 image - the screen shown while the game compiles shaders / starts up |
-| **Loading Screens** | 41 images - the 21 zone loading screens and the 20 loading-art variants |
-| **Posters** | 99 individual posters - 16 poster sets of 6 posters each, plus 3 single posters |
+| tab | section | what you can replace |
+|---|---|---|
+| **Image Edits** | **Idle Screens** | 1 image - the screen shown while the game compiles shaders / starts up |
+| **Image Edits** | **Loading Screens** | 41 images - the 21 zone loading screens and the 20 loading-art variants |
+| **Image Edits** | **Posters** | 99 individual posters - 16 poster sets of 6 posters each, plus 3 single posters |
+| **Image Edits** | **Main Menu Videos** | 6 videos - the 2 base-game campfire films and the 4 *Cost of Hope* DLC films |
+| **Text Edits** | **Menu Text** | the 8 main-menu labels (Continue, New game, Load, Options, Mod browser, Credits, Quit, window title) and the big title logo |
 
 ### 2. Choose your picture
 Every row shows the game's original picture on the left. Click **Select file...** on the
@@ -56,16 +69,106 @@ row you want to change and pick your own image (`.png`, `.jpg`, `.jpeg`, `.webp`
   poster set stays complete and correct in game.
 * Rows you do not touch keep the original game image.
 
-### 3. Build the mod
-Press **FINISH - CREATE MOD** (bottom right):
+### 3. Main menu videos (Image Edits)
 
-* give the mod a name - the folder name is also used for the priority, so a plain name
-  like `MyArt` is fine (see *Which mod wins* below),
-* choose a folder to save it in (your Desktop is fine) - the app creates a folder named
-  after the mod,
-* wait for the green **MOD READY**. It usually takes less than a minute.
+The main menu loops a **Bink 2** movie. Six films are supported:
 
-The finished folder contains three files:
+| film | file in the game | used by |
+|---|---|---|
+| Theme 1 | `SII_BONFIRE_MENU_V1_4K_60fps.bk2` | base game |
+| Theme 2 | `SII_BONFIRE_MENU_V2_4K_60fps.bk2` | base game |
+| DLC theme 1-4 | `Seq_MainMenu_01..04_*.bk2` | *Cost of Hope* DLC |
+
+> With the *Cost of Hope* DLC installed the menu normally plays the **DLC** film, so
+> replace the matching DLC row - not the base-game row. The menu theme is switched
+> with **TAB** in game.
+
+* Click **Select video...** on the row you want to change. `.mp4`, `.mov`, `.wmv`,
+  `.avi`, `.mkv`, `.webm` and ready-made `.bk2` files are accepted.
+* The app shows a **preview still** of the film (extracted with RAD Video Tools) and
+  the game's own information (resolution, frame rate, length).
+* **Encode settings** per row: resolution (3840x2160 to match the game, 2560x1440,
+  1920x1080, 32:9 5120x1440, or keep the source), quality, frame rate and
+  *remove audio*.
+* A `.bk2` file you already have is copied as-is - no conversion, no quality loss.
+
+**RAD Video Tools**
+
+* The app looks for `radvideo64.exe` in the usual install folders and in the registry.
+  If it is not installed you get a dialog: *"RAD Video Tools is not installed. Would you
+  like to download it now?"* - **Yes** opens the official download page
+  (<https://www.radgametools.com/bnkdown.htm>), **No** lets you point the app at an
+  existing copy.
+* RAD Video Tools is **not** included in this app and is not redistributed with it.
+  Bink video encoding for **commercial** use requires a licence from RAD/Epic Games.
+* Without RAD you can still use pre-encoded `.bk2` files and all the other features.
+
+**How the video package works**
+
+The game plays these films as **loose files** in the game folder - Bink does its own
+file I/O, so a movie cannot be shipped inside a mod container, and the *Cost of
+Hope* films live in the DLC container, which mods cannot override. The package
+therefore contains:
+
+```
+S2ACMV001\
+    movies\...                your encoded Bink 2 film(s)
+    install.bat               backs the original up and copies yours into the game
+    uninstall.bat             restores the original film(s)
+    readme.txt
+```
+
+* **The app never writes to the game folder.** You decide when to run
+  `install.bat`; it stores the original file in `original_backup` first, and
+  `uninstall.bat` puts it back.
+* If the game is not in the usual place, run
+  `install.bat "D:\SteamLibrary\steamapps\common\S.T.A.L.K.E.R. 2 Heart of Chornobyl"`.
+* The menu theme is switched with **TAB** in game. If the film you replaced belongs
+  to a theme you are not currently seeing, switch themes and it will show up.
+* With the *Cost of Hope* DLC installed the menu normally shows the DLC film, so
+  replace the matching DLC row (the *Cost of Hope* rows) rather than the base rows.
+
+### 4. Menu text (Text Edits)
+
+The main-menu buttons are localised strings inside
+`Stalker2/Content/Localization/Game/<language>/Game.locres`. The app reads the
+language you play in (or pick another one), shows the game's original text next to
+an editable field, and writes a mod that contains only the changed strings.
+
+* **The game font, size, colour and position stay exactly the same** - only the
+  letters change. The font is never replaced.
+* Texts must be a single line; keep them short or they will not fit the button.
+* **Preview menu...** shows your texts in the game's own Oswald font before you build.
+* The mod only contains the language you edited; other languages are untouched.
+
+**Title logo**
+
+The big *STALKER 2 / HEART OF CHORNOBYL* mark is a **texture, not text** - the
+lettering is baked artwork. You can therefore:
+
+* **Replace with image...** - use your own picture (it is converted to the game's
+  white-on-transparent format and scaled into the logo slot), or
+* **Generate from text...** - type a title and an optional subtitle; the app renders
+  it with the **game's own Oswald font** (read from your installation, never bundled).
+
+The exact original logo lettering cannot be reproduced from a font - the generated
+title is a game-font version of it.
+
+### 5. Build the mod
+Press the **FINISH** button (bottom right) of the section you are in:
+
+* **Idle / Loading / Posters** - press **FINISH - CREATE MOD**, give the mod a name
+  (the folder name is also used for the priority, so a plain name like `MyArt` is fine,
+  see *Which mod wins* below), choose a folder to save it in (your Desktop is fine) and
+  wait for **MOD READY**. It usually takes less than a minute.
+* **Main Menu Videos** - press **FINISH - CREATE VIDEO MOD** and choose a folder. The
+  app encodes the film(s) first (a 4K clip takes a few minutes) and then creates a
+  folder named `S2ACMV001`, `S2ACMV002`, ... Keep that name!
+* **Menu Text** - press **FINISH - CREATE MENU MOD**, give it a name and choose a
+  folder. The folder contains the localisation mod and, if you changed the title logo,
+  the title texture mod.
+
+The finished **picture** folder contains three files:
 
 ```
 MyArt_P.utoc     the mod itself
@@ -73,9 +176,12 @@ MyArt_P.ucas     the textures
 MyArt_P.pak      a small stub the game expects next to them
 ```
 
-### 4. Install the mod
+The finished **video / text** folder contains a `.pak` with the patched menu assets
+and, for videos, your `.bk2` file(s).
+
+### 6. Install the mod
 1. **Close the game.**
-2. Copy the whole `MyArt` folder into the game's mods directory:
+2. Copy the whole mod folder into the game's mods directory:
 
 ```
 <Steam library>\steamapps\common\S.T.A.L.K.E.R. 2 Heart of Chornobyl\Stalker2\Content\Paks\~mods\
@@ -85,13 +191,13 @@ MyArt_P.pak      a small stub the game expects next to them
    Chornobyl\Stalker2\Content\Paks\~mods\` - create `~mods` if it does not exist yet;
    the game also accepts the mod folder inside a subfolder of `~mods`)
 
-### 5. Play
-Start the game - your images are in.
+### 7. Play
+Start the game - your images and texts are in.
 
 ### Removing the mod again
-Close the game, delete the `MyArt` folder from `~mods`, and the original game images are
-back. Nothing else is left behind: the mod only *adds* files, it never replaces game
-files.
+Close the game, delete the mod folder from `~mods`, and the original game images,
+videos and texts are back. Nothing else is left behind: the mods only *add* files,
+they never replace game files.
 
 ---
 
@@ -127,6 +233,10 @@ Two more states you may see:
 
 ## Notes
 
+* The window scales to your display: on high-DPI monitors the controls and previews render
+  at native resolution (sharp, not blurry), and on very wide monitors - including 32:9
+  ultrawide - the image list is kept at a readable width and centred instead of being
+  stretched across the whole screen. Resize the window freely; the layout follows.
 * The app writes **only** into the folder you pick when saving a mod. It never modifies
   game files, and it only *reads* the installed mods (previews are decoded in a temporary
   folder that is deleted afterwards).
@@ -163,4 +273,5 @@ README.md             this file
 appicon.ico           the icon
 ```
 
-**Version 1.0.**
+**Version 2.1.**
+
