@@ -18,6 +18,8 @@ The window has three top-level tabs:
 The app also shows you, for every replaceable image and the soundtrack, **which mod is
 currently winning in game** - useful when several mods touch the same posters.
 
+A plain-text guide with install, use and uninstall steps is in `README_FIRST.txt`.
+
 ---
 
 ## Requirements
