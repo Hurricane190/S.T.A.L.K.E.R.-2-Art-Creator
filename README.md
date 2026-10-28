@@ -1,20 +1,22 @@
-﻿# S2 Art Creator 2.1
+﻿# S2 Art Creator 2.2
 
-Create your own **Idle Screen**, **Loading Screen**, **Poster** and **main-menu video**
-mods for **S.T.A.L.K.E.R. 2: Heart of Chornobyl** - and change the **text of the main
-menu** - no manual file editing, no converting, no renaming. Pick the pictures and
-texts in the game you want to replace, press one button, and copy the finished folder
-into your mods directory.
+Create your own **Idle Screen**, **Loading Screen**, **Poster**, **main-menu video** and
+**shader-loading music** mods for **S.T.A.L.K.E.R. 2: Heart of Chornobyl** - and change
+the **text of the main menu** - no manual file editing, no converting, no renaming. Pick
+the pictures, texts and soundtrack in the game you want to replace, press one button,
+and copy the finished folder into your mods directory.
 
-The window has two top-level tabs:
+The window has three top-level tabs:
 
 * **Image Edits** - everything that swaps a picture (idle screen, loading screens,
   posters, main-menu film).
 * **Text Edits** - everything that swaps text inside the game (main-menu button labels
   and the big title logo).
+* **Music** - replaces the looping track the game plays while it compiles shaders.
+  You can preview the vanilla soundtrack and your own audio in the app.
 
-The app also shows you, for every replaceable image, **which mod is currently winning in
-game** - useful when several mods touch the same posters.
+The app also shows you, for every replaceable image and the soundtrack, **which mod is
+currently winning in game** - useful when several mods touch the same posters.
 
 ---
 
@@ -28,6 +30,9 @@ game** - useful when several mods touch the same posters.
 * **RAD Video Tools** (free, from RAD Game Tools) is only needed if you want to convert
   your own movie file (`.mp4`, `.mov`, ...) into the Bink 2 format the game uses. The
   app never installs or bundles it - it only uses a copy you already have.
+* The **Music** tab uses two bundled command-line audio tools (`wav2wem`, GPLv2, and
+  `vgmstream`, ISC). Their licences and source links are in
+  `tools\THIRD_PARTY_NOTICES.txt`.
 
 ---
 
@@ -56,6 +61,7 @@ Pick a top-level tab and then a section:
 | **Image Edits** | **Posters** | 99 individual posters - 16 poster sets of 6 posters each, plus 3 single posters |
 | **Image Edits** | **Main Menu Videos** | 6 videos - the 2 base-game campfire films and the 4 *Cost of Hope* DLC films |
 | **Text Edits** | **Menu Text** | the 8 main-menu labels (Continue, New game, Load, Options, Mod browser, Credits, Quit, window title) and the big title logo |
+| **Music** | **Shader Loading** | the looping track the game plays while it compiles shaders (preview the vanilla track and your own audio in the app) |
 
 ### 2. Choose your picture
 Every row shows the game's original picture on the left. Click **Select file...** on the
@@ -154,6 +160,23 @@ lettering is baked artwork. You can therefore:
 The exact original logo lettering cannot be reproduced from a font - the generated
 title is a game-font version of it.
 
+### Music (Music tab)
+
+**Shader Loading** replaces the looping Wwise soundtrack the game plays while it
+compiles shaders on the idle screen.
+
+* The left card is the **vanilla soundtrack**: waveform, length and a **Play vanilla**
+  / **Stop** button.
+* Click **Select audio...** on the right, choose a file (`.wav`, `.mp3`, `.ogg`,
+  `.flac`, `.m4a`, `.aac`, `.wma`, `.opus`, `.aiff` all work) and press
+  **Play custom** to hear it. The app encodes it to a Wwise Vorbis `.wem` for the game.
+* The **IN GAME** line tells you which installed mod currently wins for this event.
+* Only the soundtrack media changes. The game keeps its own Wwise event, bank, loop
+  and every other sound.
+* Shader compilation only runs on the first launch or after a graphics driver update.
+  The game loops the track, so any length works. To test a replacement on an existing
+  install, clear the game's shader cache first.
+
 ### 5. Build the mod
 Press the **FINISH** button (bottom right) of the section you are in:
 
@@ -167,6 +190,9 @@ Press the **FINISH** button (bottom right) of the section you are in:
 * **Menu Text** - press **FINISH - CREATE MENU MOD**, give it a name and choose a
   folder. The folder contains the localisation mod and, if you changed the title logo,
   the title texture mod.
+* **Music** - press **FINISH - CREATE MUSIC MOD**, give it a name and choose a folder.
+  The folder contains the three files `<Name>_P.utoc`, `<Name>_P.ucas`,
+  `<Name>_P.pak` and a readme. The container name gives it normal `_P` priority.
 
 The finished **picture** folder contains three files:
 
@@ -268,10 +294,10 @@ Two more states you may see:
 S2ArtCreator.exe      the application
 _internal\            the bundled Windows runtime (no Python needed on your PC)
 resources\            the game's pristine texture templates and preview images
-tools\                the texture encoder and container packer used while building
+tools\                the texture encoder, container packer and audio tools
 README.md             this file
 appicon.ico           the icon
 ```
 
-**Version 2.1.**
+**Version 2.2.**
 

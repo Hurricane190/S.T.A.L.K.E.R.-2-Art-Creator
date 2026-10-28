@@ -1,0 +1,28 @@
+Third-party tools bundled with S2 Art Creator
+=============================================
+
+S2 Art Creator itself is a separate application. The following command-line
+tools are shipped next to it and are invoked as separate processes.
+
+1) retoc, repak, texconv, oo2core_9_win64.dll
+   Unreal Engine / IoStore and texture tooling used by the existing artwork,
+   menu and music pipelines. See the upstream projects for their licences.
+
+2) wav2wem.exe  (GPL-2.0)
+   Converts WAV/FLAC to Wwise Vorbis .wem files without Wwise.
+   Project / source: https://github.com/pas2k/wav2wem
+   Licence:         see wav2wem-LICENSE.txt (GNU GPL v2)
+   Third-party:     see wav2wem-THIRD_PARTY_NOTICES.md
+   The binary embeds oggenc2 (a GPLv2 build of vorbis-tools) and the aoTuV
+   b6.03 codebooks. The complete corresponding source is available at the
+   project URL above; the binary is redistributed unmodified.
+
+3) vgmstream-cli.exe and its DLLs  (ISC licence)
+   Audio preview decoder used by the Music tab.
+   Project / source: https://github.com/vgmstream/vgmstream
+   Licence:         see COPYING
+   Redistributed unmodified, together with the runtime DLLs from the official
+   Windows build.
+
+These tools are used only to read audio from your own game installation and to
+encode your own audio files. No game audio is redistributed with the app.
