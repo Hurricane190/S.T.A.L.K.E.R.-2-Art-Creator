@@ -1,4 +1,4 @@
-S2 ART CREATOR 2.3 - READ ME FIRST
+S2 ART CREATOR 2.3.1 - READ ME FIRST
 ===================================
 
 
@@ -72,15 +72,14 @@ HOW TO UNINSTALL A MOD
 
 MUSIC TAB NOTES
 ---------------
-- The Music tab has two slots:
-  * Shader Loading - the looping track played while the game compiles shaders.
-  * Pause / Idle Screen - the title/pause-screen track.
-- Selecting a Shader Loading track also silences the short logos/warnings track,
-  so the song starts only once, when the loop begins. The game's loading mix on
-  that loop is part of the game and cannot be removed.
-- Music volume (0-150%) and fade in/out (0-10 s) are applied to the replacement
-  audio before it is packed. The fade avoids an abrupt start/stop when the loop
-  wraps.
+- The Music tab replaces the looping track played while the game compiles
+  shaders.
+- Selecting a track also silences the short logos/warnings track, so the song
+  starts only once, when the loop begins. The game's loading mix on that loop
+  is part of the game and cannot be removed.
+- The blue Music volume (0-150%) and Fade in/out (0-10 s) controls are applied
+  to the replacement audio before it is packed. The fade avoids an abrupt
+  start/stop when the loop wraps.
 - You can preview the vanilla track and your own audio before building.
 - The game loops the track, so any length works.
 - Shader compilation only runs on the first launch or after a graphics driver
@@ -146,7 +145,7 @@ itself.
 
 VERSION
 -------
-2.3
+2.3.1
 
 
 PROJECT PAGE

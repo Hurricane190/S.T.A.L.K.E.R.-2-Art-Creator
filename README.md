@@ -1,4 +1,4 @@
-﻿# S2 Art Creator 2.3
+# S2 Art Creator 2.3.1
 
 Create your own **Idle Screen**, **Loading Screen**, **Poster**, **main-menu video** and
 **shader-loading music** mods for **S.T.A.L.K.E.R. 2: Heart of Chornobyl** - and change
@@ -64,7 +64,6 @@ Pick a top-level tab and then a section:
 | **Image Edits** | **Main Menu Videos** | 6 videos - the 2 base-game campfire films and the 4 *Cost of Hope* DLC films |
 | **Text Edits** | **Menu Text** | the 8 main-menu labels (Continue, New game, Load, Options, Mod browser, Credits, Quit, window title) |
 | **Music** | **Shader Loading** | the looping track the game plays while it compiles shaders; the short logos stream is silenced automatically (preview the vanilla track and your own audio in the app) |
-| **Music** | **Pause / Idle Screen** | the title/pause/idle-screen track (`SFX_UI_IdleScreen`) |
 
 ### 2. Choose your picture
 Every row shows the game's original picture on the left. Click **Select file...** on the
@@ -154,24 +153,22 @@ an editable field, and writes a mod that contains only the changed strings.
 
 ### Music (Music tab)
 
-The tab has two independent slots:
-
-* **Shader Loading** replaces the looping Wwise soundtrack the game plays while it
-  compiles shaders on the idle screen. The event also contains the short
-  logos/warnings track; when you pick a shader-loading track the app automatically
-  replaces that stream with silence, so your song starts once when the loop begins
-  (no double start, no overlap). The game's loading-state mix/filter on that loop is
-  part of the game and is not removed.
-* **Pause / Idle Screen** replaces the title/pause-screen track (`SFX_UI_IdleScreen`).
+**Shader Loading** replaces the looping Wwise soundtrack the game plays while it
+compiles shaders on the idle screen. The event also contains the short
+logos/warnings track; when you pick a shader-loading track the app automatically
+replaces that stream with silence, so your song starts once when the loop begins
+(no double start, no overlap). The game's loading-state mix/filter on that loop is
+part of the game and is not removed.
 
 * The left card is the **vanilla soundtrack**: waveform, length and a **Play vanilla**
   / **Stop** button.
 * Click **Select audio...** on the right, choose a file (`.wav`, `.mp3`, `.ogg`,
   `.flac`, `.m4a`, `.aac`, `.wma`, `.opus`, `.aiff` all work) and press
   **Play custom** to hear it. The app encodes it to a Wwise Vorbis `.wem` for the game.
-* **Music volume** (0-150%) and **Fade in/out** (0-10 s) apply to the replaced audio.
-  The fade prevents an abrupt start and stop when the game wraps the loop. Both values
-  are baked into the replacement file, so they need no game-side hooks.
+* The blue **Music volume** (0-150%) and **Fade in/out** (0-10 s) controls apply to
+  the replaced audio. The fade prevents an abrupt start and stop when the game wraps
+  the loop. Both values are baked into the replacement file, so they need no
+  game-side hooks.
 * The **IN GAME** line tells you which installed mod currently wins for this event.
 * Only the soundtrack media changes. The game keeps its own Wwise event, bank, loop
   and every other sound.
@@ -305,5 +302,5 @@ README.md             this file
 appicon.ico           the icon
 ```
 
-**Version 2.3.**
+**Version 2.3.1.**
 
